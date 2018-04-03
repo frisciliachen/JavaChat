@@ -3,6 +3,7 @@ package com.client.chatwindow;
 import com.client.login.LoginController;
 import com.messages.Message;
 import com.messages.MessageType;
+import com.messages.Status;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
