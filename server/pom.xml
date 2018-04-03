@@ -20,7 +20,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.server.Server</mainClass>
+                            <mainClass>com.com.server.Server</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -36,7 +36,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.server.Server</mainClass>
+                            <mainClass>com.com.server.Server</mainClass>
                         </manifest>
                     </archive>
 
