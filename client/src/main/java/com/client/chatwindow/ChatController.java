@@ -6,7 +6,6 @@ import com.client.util.VoiceRecorder;
 import com.client.util.VoiceUtil;
 import com.messages.Message;
 import com.messages.MessageType;
-import com.messages.Status;
 import com.messages.User;
 import com.messages.bubble.BubbleSpec;
 import com.messages.bubble.BubbledLabel;

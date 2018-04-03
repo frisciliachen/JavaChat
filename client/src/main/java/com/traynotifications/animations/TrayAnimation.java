@@ -13,4 +13,4 @@ public interface TrayAnimation {
     void playDismissAnimation();
 
     boolean isShowing();
-} 
+}
