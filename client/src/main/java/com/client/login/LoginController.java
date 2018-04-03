@@ -97,14 +97,14 @@ public class LoginController implements Initializable {
         selectedPicture.setVisible(false);
 
         borderPane.setOnMousePressed(event -> {
-            xOffset = com.client.login.MainLauncher.getPrimaryStage().getX() - event.getScreenX();
-            yOffset = com.client.login.MainLauncher.getPrimaryStage().getY() - event.getScreenY();
+            xOffset = MainLauncher.getPrimaryStage().getX() - event.getScreenX();
+            yOffset = MainLauncher.getPrimaryStage().getY() - event.getScreenY();
             borderPane.setCursor(Cursor.CLOSED_HAND);
         });
 
         borderPane.setOnMouseDragged(event -> {
-            com.client.login.MainLauncher.getPrimaryStage().setX(event.getScreenX() + xOffset);
-            com.client.login.MainLauncher.getPrimaryStage().setY(event.getScreenY() + yOffset);
+            MainLauncher.getPrimaryStage().setX(event.getScreenX() + xOffset);
+            MainLauncher.getPrimaryStage().setY(event.getScreenY() + yOffset);
 
         });
 
@@ -212,7 +212,7 @@ public class LoginController implements Initializable {
     }
 
     public void minimizeWindow(){
-        com.client.login.MainLauncher.getPrimaryStage().setIconified(true);
+        MainLauncher.getPrimaryStage().setIconified(true);
     }
 
     public void showErrorDialog(String message) {
